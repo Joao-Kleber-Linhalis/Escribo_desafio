@@ -14,8 +14,11 @@ Certifique-se de ter o Flutter instalado no seu ambiente de desenvolvimento.
 
 1. Abra https://dartpad.dev/?
 2. Coloque o seguinte código :
-    void main() {
-  print(Soma(13)); //Numero que desejar.
+
+<pre>
+<code>
+void main() {
+  print(Soma(13)); // Número que desejar.
 }
 
 int Soma(int numero) {
@@ -26,6 +29,8 @@ int Soma(int numero) {
     }
   }
   return total;
-}//Fim do código
+}
+</code>
+</pre>
 
 É a mesma lógica do app para a IDE mas para ser executado no dartpad sem a necessidade da IDE.
