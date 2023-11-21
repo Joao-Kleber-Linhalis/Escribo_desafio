@@ -58,7 +58,7 @@ class BookItem extends StatelessWidget {
   }
 
   void _downloadFile(Book book) async {
-    var path = "/storage/emulated/0/Documents/" + book.title+".epub";
+    var path = "/storage/emulated/0/Documents/${book.title}.epub";
     var file = File(path);
     if (!await file.exists()) {
       var response = await get(Uri.parse(book.download_url));
