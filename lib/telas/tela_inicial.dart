@@ -1,3 +1,4 @@
+import 'package:escribo_desafio/telas/permissao.dart';
 import 'package:escribo_desafio/telas/primeiro_desafio.dart';
 import 'package:escribo_desafio/telas/segundo_desafio.dart';
 import 'package:escribo_desafio/uteis/nav.dart';
@@ -28,7 +29,7 @@ class TelaInicial extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: (){
-                push(context, SegundoDesafio(),replace: false);
+                push(context, Permissao(),replace: false);
               },
               child: Text('Segundo Desafio'),
             )
